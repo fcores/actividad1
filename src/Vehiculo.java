@@ -22,7 +22,5 @@ public abstract class Vehiculo {
         return modelo;
     }
 
-    public String mostrarInfo(){
-        return "El vehiculo con matricula " + getMatricula() + " es de la marca " + getMarca() + " y del modelo " + getModelo();
-    }
+    public abstract String mostrarInfo();
 }
